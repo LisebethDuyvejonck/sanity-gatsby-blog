@@ -10,12 +10,6 @@ export default {
       title: 'Title'
     },
     {
-      name: 'description',
-      type: 'text',
-      title: 'Description',
-      description: 'Describe your blog for search engines and social media.'
-    },
-    {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',
@@ -24,6 +18,12 @@ export default {
       options: {
         layout: 'tags'
       }
+    },
+    {
+      name: 'description',
+      type: 'text',
+      title: 'Description',
+      description: 'Describe your blog for search engines and social media.'
     },
     {
       name: 'author',
